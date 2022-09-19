@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.thread"><![CDATA[Thema]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.thread"><![CDATA[Thema gelöscht]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.thread"><![CDATA[{if $statement->getObject()->threadID}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Thema „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Ein Thema von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, das mittlerweile gelöscht ist.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.thread"><![CDATA[{if $statement->getObject()->threadID}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Thema „{$statement->getObject()->getTitle()}“ wurde gelöscht oder deaktiviert.{else}Eines {if LANGUAGE_USE_INFORMAL_VARIANT}Deiner{else}Ihrer{/if} Themen wurde gelöscht.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.post"><![CDATA[Beitrag]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.post"><![CDATA[Beitrag gelöscht]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.post"><![CDATA[{if $statement->getObject()->postID}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Beitrag „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Ein Beitrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, der mittlerweile gelöscht ist.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.post"><![CDATA[{if $statement->getObject()->postID}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Beitrag „{$statement->getObject()->getTitle()}“ wurde gelöscht oder deaktiviert.{else}Ein Beitrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Hilfreichste Antwort]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Hilfreichste Antwort entfernt]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Ein Beitrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde als hilfreichste Antwort ausgewählt {if $statement->getObject()->threadID}im Thema „{$statement->getObject()->getTitle()}“{else}in einem Thema, das mittlerweile gelöscht ist{/if}.]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Ein Beitrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} ist nicht mehr die hilfreichste Antwort {if $statement->getObject()->threadID}im Thema „{$statement->getObject()->getTitle()}“.{else}in einem Thema, das mittlerweile gelöscht ist.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.wbb"><![CDATA[WoltLab Suite Forum]]></item>
-	</category>
-	
-	<category name="wcf.jcoins">
-		<item name="wcf.jcoins.amount.posting.tooLow"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du besitzt{else}Sie besitzen{/if} nicht genügend {JCOINS_NAME}-Guthaben, um auf dieses Thema zu antworten.]]></item>
-	</category>
-	
-	<category name="wbb.acp.board">
-		<item name="wbb.acp.board.jcoins"><![CDATA[JCoins Forumeinstellungen]]></item>
-		<item name="wbb.acp.board.jcoins.custom"><![CDATA[Forumspezifische JCoins-Einkünfte]]></item>
-		<item name="wbb.acp.board.jcoins.thread.customval"><![CDATA[Thema]]></item>
-		<item name="wbb.acp.board.jcoins.thread.retractable.customval"><![CDATA[Thema gelöscht]]></item>
-		<item name="wbb.acp.board.jcoins.post.customval"><![CDATA[Beitrag]]></item>
-		<item name="wbb.acp.board.jcoins.post.retractable.customval"><![CDATA[Beitrag gelöscht]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.jcoins_board_inheritance"><![CDATA[Vererbung forenspezifischer JCoins]]></item>
-		<item name="wcf.acp.option.jcoins_board_inheritance.off"><![CDATA[keine]]></item>
-		<item name="wcf.acp.option.jcoins_board_inheritance.standard"><![CDATA[standard]]></item>
-		<item name="wcf.acp.option.jcoins_board_inheritance.ascending"><![CDATA[aufsteigend]]></item>
-	</category>
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.thread"><![CDATA[Thema]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.thread"><![CDATA[Thema gelöscht]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.thread"><![CDATA[{if $statement->getObject()->threadID}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Thema „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Ein Thema von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, das mittlerweile gelöscht ist.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.thread"><![CDATA[{if $statement->getObject()->threadID}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Thema „{$statement->getObject()->getTitle()}“ wurde gelöscht oder deaktiviert.{else}Eines {if LANGUAGE_USE_INFORMAL_VARIANT}Deiner{else}Ihrer{/if} Themen wurde gelöscht.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.post"><![CDATA[Beitrag]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.post"><![CDATA[Beitrag gelöscht]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.post"><![CDATA[{if $statement->getObject()->postID}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Beitrag „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Ein Beitrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, der mittlerweile gelöscht ist.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.post"><![CDATA[{if $statement->getObject()->postID}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Beitrag „{$statement->getObject()->getTitle()}“ wurde gelöscht oder deaktiviert.{else}Ein Beitrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Hilfreichste Antwort]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Hilfreichste Antwort entfernt]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Ein Beitrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde als hilfreichste Antwort ausgewählt {if $statement->getObject()->threadID}im Thema „{$statement->getObject()->getTitle()}“{else}in einem Thema, das mittlerweile gelöscht ist{/if}.]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Ein Beitrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} ist nicht mehr die hilfreichste Antwort {if $statement->getObject()->threadID}im Thema „{$statement->getObject()->getTitle()}“.{else}in einem Thema, das mittlerweile gelöscht ist.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.wbb"><![CDATA[WoltLab Suite Forum]]></item>
+    </category>
+
+    <category name="wcf.jcoins">
+        <item name="wcf.jcoins.amount.posting.tooLow"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du besitzt{else}Sie besitzen{/if} nicht genügend {JCOINS_NAME}-Guthaben, um auf dieses Thema zu antworten.]]></item>
+    </category>
+
+    <category name="wbb.acp.board">
+        <item name="wbb.acp.board.jcoins"><![CDATA[JCoins Forumeinstellungen]]></item>
+        <item name="wbb.acp.board.jcoins.custom"><![CDATA[Forumspezifische JCoins-Einkünfte]]></item>
+        <item name="wbb.acp.board.jcoins.thread.customval"><![CDATA[Thema]]></item>
+        <item name="wbb.acp.board.jcoins.thread.retractable.customval"><![CDATA[Thema gelöscht]]></item>
+        <item name="wbb.acp.board.jcoins.post.customval"><![CDATA[Beitrag]]></item>
+        <item name="wbb.acp.board.jcoins.post.retractable.customval"><![CDATA[Beitrag gelöscht]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.jcoins_board_inheritance"><![CDATA[Vererbung forenspezifischer JCoins]]></item>
+        <item name="wcf.acp.option.jcoins_board_inheritance.off"><![CDATA[keine]]></item>
+        <item name="wcf.acp.option.jcoins_board_inheritance.standard"><![CDATA[standard]]></item>
+        <item name="wcf.acp.option.jcoins_board_inheritance.ascending"><![CDATA[aufsteigend]]></item>
+    </category>
 </language>
