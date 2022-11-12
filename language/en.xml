@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="en">
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.thread"><![CDATA[Thread]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.thread"><![CDATA[Thread deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.thread"><![CDATA[{if $statement->getObject()->threadID}Your thread “{$statement->getObject()->getTitle()}” was published.{else}A thread of yours was published, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.thread"><![CDATA[{if $statement->getObject()->threadID}Your thread “{$statement->getObject()->getTitle()}” was trashed or disabled.{else}A thread of yours was deleted.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.post"><![CDATA[Post]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.post"><![CDATA[Post deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.post"><![CDATA[{if $statement->getObject()->postID}Your post “{$statement->getObject()->getTitle()}” was published.{else}A post of yours was published, which was deleted in the meantime{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.post"><![CDATA[{if $statement->getObject()->postID}Your post “{$statement->getObject()->getTitle()}” was trashed or disabled.{else}A post of yours was deleted.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Best answer]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Best answer removed]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[A post of yours was selected as best answer {if $statement->getObject()->threadID}in the thread “{$statement->getObject()->getTitle()}”{else}in a thread, which was deleted in the meantime{/if}.]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[A post of yours is no longer the best answer {if $statement->getObject()->threadID}in the thread “{$statement->getObject()->getTitle()}”.{else}in a thread, which was deleted in the meantime.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.wbb"><![CDATA[WoltLab Suite Forum]]></item>
-	</category>
-	
-	<category name="wcf.jcoins">
-		<item name="wcf.jcoins.amount.posting.tooLow"><![CDATA[You have not enough {JCOINS_NAME} to answer this thread.]]></item>
-	</category>
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.thread"><![CDATA[Thread]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.thread"><![CDATA[Thread deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.thread"><![CDATA[{if $statement->getObject()->threadID}Your thread “{$statement->getObject()->getTitle()}” was published.{else}A thread of yours was published, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.thread"><![CDATA[{if $statement->getObject()->threadID}Your thread “{$statement->getObject()->getTitle()}” was trashed or disabled.{else}A thread of yours was deleted.{/if}]]></item>
 
-	<category name="wbb.acp.board">
-		<item name="wbb.acp.board.jcoins"><![CDATA[JCoins Board Settings]]></item>
-		<item name="wbb.acp.board.jcoins.custom"><![CDATA[Board-specific JCoins Earnings]]></item>
-		<item name="wbb.acp.board.jcoins.thread.customval"><![CDATA[Thread]]></item>
-		<item name="wbb.acp.board.jcoins.thread.retractable.customval"><![CDATA[Thread deleted]]></item>
-		<item name="wbb.acp.board.jcoins.post.customval"><![CDATA[Post]]></item>
-		<item name="wbb.acp.board.jcoins.post.retractable.customval"><![CDATA[Post deleted]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.jcoins_board_inheritance"><![CDATA[Inheritance of board-specific JCoins]]></item>
-		<item name="wcf.acp.option.jcoins_board_inheritance.off"><![CDATA[none]]></item>
-		<item name="wcf.acp.option.jcoins_board_inheritance.standard"><![CDATA[standard]]></item>
-		<item name="wcf.acp.option.jcoins_board_inheritance.ascending"><![CDATA[ascending]]></item>
-	</category>
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.post"><![CDATA[Post]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.post"><![CDATA[Post deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.post"><![CDATA[{if $statement->getObject()->postID}Your post “{$statement->getObject()->getTitle()}” was published.{else}A post of yours was published, which was deleted in the meantime{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.post"><![CDATA[{if $statement->getObject()->postID}Your post “{$statement->getObject()->getTitle()}” was trashed or disabled.{else}A post of yours was deleted.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Best answer]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[Best answer removed]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[A post of yours was selected as best answer {if $statement->getObject()->threadID}in the thread “{$statement->getObject()->getTitle()}”{else}in a thread, which was deleted in the meantime{/if}.]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.bestAnswer"><![CDATA[A post of yours is no longer the best answer {if $statement->getObject()->threadID}in the thread “{$statement->getObject()->getTitle()}”.{else}in a thread, which was deleted in the meantime.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.wbb"><![CDATA[WoltLab Suite Forum]]></item>
+    </category>
+
+    <category name="wcf.jcoins">
+        <item name="wcf.jcoins.amount.posting.tooLow"><![CDATA[You have not enough {JCOINS_NAME} to answer this thread.]]></item>
+    </category>
+
+    <category name="wbb.acp.board">
+        <item name="wbb.acp.board.jcoins"><![CDATA[JCoins Board Settings]]></item>
+        <item name="wbb.acp.board.jcoins.custom"><![CDATA[Board-specific JCoins Earnings]]></item>
+        <item name="wbb.acp.board.jcoins.thread.customval"><![CDATA[Thread]]></item>
+        <item name="wbb.acp.board.jcoins.thread.retractable.customval"><![CDATA[Thread deleted]]></item>
+        <item name="wbb.acp.board.jcoins.post.customval"><![CDATA[Post]]></item>
+        <item name="wbb.acp.board.jcoins.post.retractable.customval"><![CDATA[Post deleted]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.jcoins_board_inheritance"><![CDATA[Inheritance of board-specific JCoins]]></item>
+        <item name="wcf.acp.option.jcoins_board_inheritance.off"><![CDATA[none]]></item>
+        <item name="wcf.acp.option.jcoins_board_inheritance.standard"><![CDATA[standard]]></item>
+        <item name="wcf.acp.option.jcoins_board_inheritance.ascending"><![CDATA[ascending]]></item>
+    </category>
 </language>

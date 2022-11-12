@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
-	<import>
-		<eventlistener name="jCoinsPostAction">
-			<eventclassname>wbb\data\post\PostAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsCreatePostListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="jCoinsPostQuickReplyManager">
-			<eventclassname>wcf\system\message\QuickReplyManager</eventclassname>
-			<eventname>createdMessage</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsCreatePostListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="jCoinsThreadAction">
-			<eventclassname>wbb\data\thread\ThreadAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsCreateThreadListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="jCoinsPostAdd">
-			<eventclassname>wbb\form\PostAddForm</eventclassname>
-			<eventname>checkPermissions</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsCreatePostAddFormListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="jCoinsPostQRMValidate">
-			<eventclassname>wcf\system\message\QuickReplyManager</eventclassname>
-			<eventname>validateParameters</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsCreatePostAddFormListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="jCoinsThreadPage">
-			<eventclassname>wbb\page\ThreadPage</eventclassname>
-			<eventname>assignVariables</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsCreatePostAddFormListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="jCoinsThreadAdd">
-			<eventclassname>wbb\form\ThreadAddForm</eventclassname>
-			<eventname>checkPermissions</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsCreateThreadAddFormListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="jCoinsBoardAddReadForm">
-			<eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
-			<eventname>readFormParameters</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
-			<environment>admin</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-		<eventlistener name="jCoinsBoardAddReadParam">
-			<eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
-			<eventname>readParameters</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
-			<environment>admin</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-		<eventlistener name="jCoinsBoardAddReadData">
-			<eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
-			<eventname>readData</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
-			<environment>admin</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-		<eventlistener name="jCoinsBoardAddSave">
-			<eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
-			<eventname>save</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
-			<environment>admin</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-		<eventlistener name="jCoinsBoardAddAssign">
-			<eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
-			<eventname>assignVariables</eventname>
-			<listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
-			<environment>admin</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-	</import>
+    <import>
+        <eventlistener name="jCoinsPostAction">
+            <eventclassname>wbb\data\post\PostAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsCreatePostListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="jCoinsPostQuickReplyManager">
+            <eventclassname>wcf\system\message\QuickReplyManager</eventclassname>
+            <eventname>createdMessage</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsCreatePostListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="jCoinsThreadAction">
+            <eventclassname>wbb\data\thread\ThreadAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsCreateThreadListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="jCoinsPostAdd">
+            <eventclassname>wbb\form\PostAddForm</eventclassname>
+            <eventname>checkPermissions</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsCreatePostAddFormListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="jCoinsPostQRMValidate">
+            <eventclassname>wcf\system\message\QuickReplyManager</eventclassname>
+            <eventname>validateParameters</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsCreatePostAddFormListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="jCoinsThreadPage">
+            <eventclassname>wbb\page\ThreadPage</eventclassname>
+            <eventname>assignVariables</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsCreatePostAddFormListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="jCoinsThreadAdd">
+            <eventclassname>wbb\form\ThreadAddForm</eventclassname>
+            <eventname>checkPermissions</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsCreateThreadAddFormListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="jCoinsBoardAddReadForm">
+            <eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
+            <eventname>readFormParameters</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
+            <environment>admin</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+        <eventlistener name="jCoinsBoardAddReadParam">
+            <eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
+            <eventname>readParameters</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
+            <environment>admin</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+        <eventlistener name="jCoinsBoardAddReadData">
+            <eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
+            <eventname>readData</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
+            <environment>admin</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+        <eventlistener name="jCoinsBoardAddSave">
+            <eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
+            <eventname>save</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
+            <environment>admin</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+        <eventlistener name="jCoinsBoardAddAssign">
+            <eventclassname>wbb\acp\form\BoardAddForm</eventclassname>
+            <eventname>assignVariables</eventname>
+            <listenerclassname>wbb\system\event\listener\JCoinsBoardAddListener</listenerclassname>
+            <environment>admin</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+    </import>
 </data>
